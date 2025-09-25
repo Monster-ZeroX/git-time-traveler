@@ -12,8 +12,8 @@ Create stunning visual patterns, messages, or artwork on your GitHub profile usi
 ### 1. Fork This Repository
 ```bash
 # Click the "Fork" button on GitHub, or clone it locally:
-git clone https://github.com/yourusername/Funny-Github.git
-cd Funny-Github
+git clone https://github.com/yourusername/git-time-traveler.git
+cd git-time-traveler
 ```
 
 ### 2. Set Up Git Authentication (IMPORTANT!)
@@ -26,14 +26,14 @@ After forking, you need to configure git to push commits:
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
-git remote set-url origin https://yourusername:YOUR_TOKEN@github.com/yourusername/Funny-Github.git
+git remote set-url origin https://yourusername:YOUR_TOKEN@github.com/yourusername/git-time-traveler.git
 ```
 
 #### Option B: Using SSH (Alternative)
 1. Set up SSH keys on GitHub
 2. Change remote URL to SSH:
 ```bash
-git remote set-url origin git@github.com:yourusername/Funny-Github.git
+git remote set-url origin git@github.com:yourusername/git-time-traveler.git
 ```
 
 #### Option C: Test Locally First (Safest)
@@ -150,7 +150,7 @@ If this works without errors, you're ready to create! 🎉
 ## 📁 File Structure
 
 ```
-Funny-Github/
+git-time-traveler/
 ├── src/main/java/com/GitTimeTraveler/
 │   ├── SimpleGitHubApp.java          # Main application
 │   ├── service/                      # Service layer (clean architecture)
